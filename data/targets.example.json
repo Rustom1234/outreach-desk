@@ -1,0 +1,48 @@
+{
+  "targets": [
+    {
+      "name": "Dr. Priya Nakamura",
+      "role": "Associate Professor of Computer Science",
+      "org": "Aldergrove Institute of Technology",
+      "context_urls": [
+        "https://example.edu/faculty/nakamura",
+        "https://example.edu/labs/signals-and-inference"
+      ],
+      "notes": "Research interests: time-series anomaly detection, probabilistic graphical models, and applied ML for sensor networks. Recently published a working paper on streaming anomaly detection for industrial IoT.",
+      "known_email": "p.nakamura@example.edu"
+    },
+    {
+      "name": "Jordan Ellery",
+      "role": "Technical Recruiter",
+      "org": "Northlight Robotics",
+      "context_urls": [
+        "https://example.com/careers",
+        "https://example.com/blog/were-hiring-perception-team"
+      ],
+      "notes": "Northlight Robotics is hiring for its perception and sensor-fusion team; recent blog post about expanding the internship program.",
+      "known_email": "jordan.ellery@example.com"
+    },
+    {
+      "name": "Sam Okafor",
+      "role": "Founder and CEO",
+      "org": "Fernwood Analytics",
+      "context_urls": [
+        "https://example.org/news/fernwood-seed-round",
+        "https://example.org/product"
+      ],
+      "notes": "Fernwood Analytics just announced a seed round and launched a new dashboard product for retail demand forecasting.",
+      "known_email": null
+    },
+    {
+      "name": "Dr. Lena Voss",
+      "role": "Assistant Professor of Materials Science",
+      "org": "Birchwood University",
+      "context_urls": [
+        "https://example.edu/faculty/voss",
+        "https://example.edu/labs/computational-materials"
+      ],
+      "notes": "Research group applies machine learning to accelerate materials discovery; lab page lists an open postdoc grant and recent preprint on neural network potentials.",
+      "known_email": null
+    }
+  ]
+}

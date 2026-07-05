@@ -1,0 +1,38 @@
+# Target type: client (potential clients, founders, business contacts).
+target_type: client
+
+tone: "direct, professional, low-pressure"
+
+subject_style:
+  prefix: "Quick note on"
+
+greeting_template: "Hi {first},"
+
+outro_template: |
+  Happy to send over more detail or hop on a short call if it's useful --
+  no pressure either way. Thanks for reading!
+
+  {sender_name}
+
+# Keywords the Scout stage looks for when scraping a target's context_urls
+# (company news, product pages, blog posts) to build research notes.
+context_signals:
+  - product launch
+  - announced
+  - raised
+  - now available
+  - new feature
+  - case study
+  - press release
+
+draft_instructions: |
+  - Reference a specific, recent, public signal about the target's company
+    from the research notes (a launch, a piece of news, a product detail).
+    If nothing specific was found, speak to their general product area
+    instead of inventing a detail.
+  - Connect that signal to a concrete way the sender's work could help --
+    one sentence, no laundry list of capabilities.
+  - Keep it short. This is a business note, not a personal essay: get to
+    the point and respect the reader's time.
+  - Do not use sales language or urgency framing ("limited time", "act
+    now"). No hype adjectives.

@@ -1,0 +1,38 @@
+# Target type: recruiter (technical recruiters, talent partners, hiring managers).
+target_type: recruiter
+
+tone: "confident, concise, respectful of their time"
+
+subject_style:
+  prefix: "Interest in"
+
+greeting_template: "Hi {first},"
+
+outro_template: |
+  I'd welcome the chance to talk for 15 minutes about open roles that might be
+  a fit. Thanks for considering it, and thanks for your time either way!
+
+  {sender_name}
+
+# Keywords the Scout stage looks for when scraping a target's context_urls
+# (team pages, open-roles pages, company blog) to build research notes.
+context_signals:
+  - we're hiring
+  - open roles
+  - open positions
+  - join our team
+  - careers
+  - now hiring
+  - internship
+
+draft_instructions: |
+  - Lead with the single most relevant piece of the sender's experience for
+    the kind of role this company is likely hiring for, based on the
+    research notes.
+  - Name the specific team or role signal from the research notes if one is
+    available; otherwise speak to the company's product area in general
+    terms.
+  - Do not oversell. State what the sender has actually built or done,
+    plainly, without adjectives doing the work of evidence.
+  - Close the loop with a light, specific ask: fit for a particular team or
+    role type, not "any opportunities you have."

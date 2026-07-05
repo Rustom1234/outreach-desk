@@ -1,0 +1,40 @@
+# Target type: academic (professors, PIs, research group leads).
+target_type: academic
+
+tone: "warm, peer-curious, intellectually honest about gaps in background"
+
+subject_style:
+  prefix: "Research interest in"
+
+greeting_template: "Hi {first},"
+
+outro_template: |
+  I'd genuinely love a short conversation to learn more about what you're working on
+  and where I might fit in. Thank you so much for taking the time to read this!
+
+  {sender_name}
+
+# Keywords the Scout stage looks for when scraping a target's context_urls
+# (lab pages, faculty pages, publication lists) to build research notes.
+context_signals:
+  - publications
+  - research interests
+  - lab
+  - research group
+  - postdoc
+  - grant
+  - preprint
+  - working paper
+
+# Framing rules injected into the Drafter prompt for this target type.
+draft_instructions: |
+  - Lead with what the sender actually works on and connect it honestly to
+    the recipient's research area. Start naturally, e.g. "My research is on
+    [X]" or "I've been working on [X]."
+  - The connection to the recipient's work should be honest and light. Do
+    not perform enthusiasm or claim their work "changed how I think."
+  - Be direct about any gap between the sender's background and the
+    recipient's field -- frame it as intellectual honesty, not an apology.
+  - Do not frame the sender as already a research assistant; frame them as
+    someone trying to understand the field and whether their background
+    points toward it.

@@ -1,0 +1,32 @@
+# Example sender persona -- entirely synthetic. Replace with your own.
+#
+# This file is what the Drafter stage uses in place of a hardcoded profile
+# string: it tells the model who is sending the email, what their
+# background is, and what affiliations are safe to mention. None of the
+# fields below refer to a real person, school, or company.
+
+name: "Alex Rivera"
+
+# Used by the affiliation fact-checker so it never flags the sender's own
+# orgs as a hallucinated claim about the recipient.
+affiliations:
+  - "Cascade University"
+  - "Fictional Signals Lab"
+  - "BrightPath Analytics"
+
+# Freeform bio fed into the drafting prompt. Keep it factual and specific --
+# the more concrete the details, the less generic the generated copy reads.
+bio: |
+  Alex Rivera -- junior at Cascade University, studying Computer Science and
+  Statistics, with a part-time research role in the Fictional Signals Lab.
+  Key experience:
+  - Data Engineering Intern, BrightPath Analytics (summer): built an ETL
+    pipeline moving retail transaction data into a warehouse, plus a
+    forecasting dashboard used by the ops team.
+  - Undergraduate Researcher, Fictional Signals Lab, Cascade University:
+    built time-series anomaly detection models for sensor data, and
+    maintained the lab's shared data-preprocessing library.
+  - Teaching Assistant, Introduction to Algorithms, Cascade University.
+  - Stack: Python, PyTorch, SQL, dbt, React, Flask.
+
+signature: "Alex Rivera"

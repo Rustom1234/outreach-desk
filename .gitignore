@@ -1,0 +1,22 @@
+# Secrets and credentials -- never commit these
+.env
+credentials.json
+token.json
+token*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# Generated output -- never commit real drafts
+outbox/
+
+# Real-data patterns (in case a real run is ever done locally)
+*.pdf
+seen.txt
+seen.txt.bak
+drafts.json
+targets.py

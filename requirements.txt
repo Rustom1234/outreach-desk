@@ -1,0 +1,12 @@
+anthropic
+requests
+beautifulsoup4
+lxml
+python-dotenv
+pyyaml
+
+# Optional: only needed if you enable the Gmail draft delivery backend
+# (delivery.backend: gmail in a target-type config). Not required for the
+# default local outbox backend or for --dry-run.
+google-auth-oauthlib
+google-api-python-client
